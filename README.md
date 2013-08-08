@@ -1,4 +1,4 @@
-zumocms-plugin-news
+zumocms-plugin-gallery
 ===================
 
 Gallery plugin for zumocms - https://github.com/timstermatic/zumocms
@@ -12,6 +12,10 @@ Clone into the Plugin directory of your zumocms installation as `Gallery`. For e
 Run the database initialisation:
   
     ./Console/cake Migrations.migration run all --plugin Gallery
+    
+Configure the directory for images and cached thumbnails in `Config/bootstrap.php`
+
+
     
     
 
